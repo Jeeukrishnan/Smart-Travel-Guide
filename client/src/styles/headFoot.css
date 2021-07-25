@@ -1,0 +1,391 @@
+  /*navbar*/
+  nav {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      border: 0;
+      font-size: 14px;
+      letter-spacing: 4px;
+      opacity: 0.9;
+      background: #f8f9fa;
+      box-shadow: 0 0px 10px 0 rgba(0, 0, 0, .2);
+  }
+
+
+  .navbar-light .navbar-nav .nav-link {
+      color: black;
+      margin-right: 20px;
+  }
+
+
+  .navbar-light .navbar-brand,
+  #logout-nav {
+      color: #007bff;
+      cursor: pointer;
+  }
+
+  .navbar-light .navbar-nav .nav-link:hover {
+      color: #007bff;
+      cursor: pointer;
+  }
+
+  .navbar-light .navbar-brand:hover,
+  #logout-nav:hover {
+      text-decoration: none;
+      color: black;
+      cursor: pointer;
+  }
+
+
+  /*about*/
+  .about {
+      margin-top: 0px;
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3XgbnIWWlms1pO1RAK0Ok2hdWV0ivl7d-IVWGpBJ9c-KQkZikXA&s");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      display: inline;
+  }
+  .about1 {
+    margin-top: 0px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQdcEVOBlugdWO84CrkEQTNOg1pPmEfYkChvJlofMGLcvEBNz0R&usqp=CAU");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: inline;
+  }
+
+  .inAbout {
+      margin-top: 10%;
+      padding: 0 60px 10px 60px;
+      color: black;
+      text-align: center;
+  }
+
+  .inAbout h1 {
+      font-size: -webkit-xxx-large;
+      color: #358f9e;
+  }
+
+   .inAbout p {
+      font-size: larger;
+      color: #dc3545;
+      font-weight: 500;
+  }
+
+  .inAboutSearch {
+      color: black;
+      text-align: center;
+      margin-top: 5%;
+      padding: 0 150px;
+  }
+
+  @media only screen and (max-width: 1130px) {
+      .inAbout {
+          margin-top: 20%;
+      }
+
+      .inAboutSearch {
+          margin-top: 5%;
+          padding: unset;
+      }
+
+  }
+
+  @media only screen and (max-width: 700px) {
+       .inAbout h1 {
+          font-size: xx-large;
+      }
+  }
+
+
+
+  /*footer*/
+  footer {
+      width: 100%;
+      height: fit-content;
+      padding: 20px;
+      font-family: Montserrat, sans-serif;
+      /*background-color: rgb(165, 160, 160); */
+      color: black;
+
+
+  }
+
+  footer #left-div,
+  footer #mid-div {
+      width: 40%;
+      float: left;
+      letter-spacing: 4px;
+  }
+
+  footer #left-div {
+      margin-top: 20px;
+  }
+
+  footer #right-div {
+      letter-spacing: 4px;
+  }
+
+  footer a {
+      color: black;
+      margin-bottom: 5px;
+  }
+
+  footer a:hover {
+      color: blue;
+      text-decoration: none;
+  }
+
+  @media only screen and (max-width: 800px) {
+
+      .navbar-light .navbar-nav .nav-link,
+      .navbar-light .navbar-brand {
+          font-size: 13px;
+          margin-right: 36px;
+      }
+
+      .navbar-light .navbar-toggler {
+          color: #007bff;
+          border-color: #007bff;
+          margin-left: -36px;
+          margin-right: 16px;
+      }
+
+      footer #left-div,
+      footer #mid-div,
+      #footer-right-div {
+          width: 100%;
+          letter-spacing: 2px;
+          margin-bottom: 10px;
+      }
+  }
+
+
+
+
+
+  /* signup */
+
+  #signup,
+  #login,
+  #thankyou,
+  .confirmBooking {
+      margin-top: 0px;
+      background-image: url("https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      display: inline;
+  }
+
+  #sideIntro {
+      margin-top: 100px;
+      margin-left: 80px;
+      float: left;
+      width: 50%;
+  }
+
+  #sideIntro #p2 {
+      color: green;
+      font-family: cursive;
+      font-style: oblique;
+      font-variant: petite-caps;
+      font-size: xx-large;
+      width: 80%;
+  }
+
+  #sideIntro #p1 {
+      color: white;
+      font-family: cursive;
+      font-style: oblique;
+      font-variant: petite-caps;
+      font-size: 50px;
+  }
+
+  #signup form input,
+  #login form input {
+      width: 100%;
+  }
+
+  #signup form,
+  #login form {
+      margin: 80px 80px 0 auto;
+      color: white;
+      width: 30%;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      background: rgba(0, 0, 0, 0.5);
+  }
+
+  #signup form,
+  #login form {
+      margin-left: 60%;
+      width: 30%;
+  }
+
+  #signup form #submit,
+  #login form #submit {
+      background: green;
+      color: white;
+      border: none;
+  }
+
+  @media only screen and (max-width: 1100px) {
+      #sideIntro #p2 {
+          font-size: large;
+      }
+
+      #sideIntro #p1 {
+          font-size: 40px;
+      }
+
+      intro {
+          scroll-behavior: auto;
+      }
+  }
+
+  @media only screen and (max-width: 700px) {
+      #sideIntro #p2 {
+          font-size: large;
+      }
+
+      #sideIntro #p1 {
+          font-size: large;
+      }
+
+      #sideIntro {
+          margin: 10% auto;
+          width: 100%;
+          padding: 0 20px 0 20px;
+          position: absolute;
+      }
+
+      #signup form,
+      #login form {
+          margin: 50% 10%;
+          width: 70%;
+          position: fixed;
+      }
+  }
+
+  @media only screen and (max-width: 555px) {
+      #sideIntro {
+          margin: 10% auto;
+          width: 100%;
+          padding: 0 20px 0 20px;
+          position: absolute;
+      }
+
+      #sideIntro #p1 {
+          font-size: 24px;
+          margin: auto;
+      }
+
+      #signup form,
+      #login form {
+          margin: 65% 5%;
+          width: 80%;
+          position: fixed;
+      }
+
+      #sideIntro #p2 {
+          font-size: x-small;
+      }
+  }
+
+  /*thankyou*/
+  #intro {
+      margin: 150px 35%;
+  }
+
+  .intro-textbox {
+      background: #e9eced;
+      opacity: 0.9;
+      box-shadow: 0 20px 30px 10px rgba(0, 0, 0, .9);
+      position: relative;
+      margin-top: 60px;
+      width: fit-content;
+      border-radius: 5px;
+  }
+
+  .intro-text {
+      color: #299a1a;
+      font-family: cursive;
+      font-style: oblique;
+      font-feature-settings: "pcap";
+      font-variant: petite-caps;
+      font-size: 40px;
+      /*width: fit-content;*/
+      padding: 30px 15px 15px 15px;
+      text-align: center;
+  }
+
+  .intro-text button {
+      font-size: 20px;
+      padding: 0px;
+      width: 100px;
+      background: skyblue;
+      border: none;
+  }
+
+  .intro-text button:hover {
+      background: rgb(185, 181, 181);
+      color: #299a1a;
+  }
+
+
+  .intro-icon {
+      position: absolute;
+      top: -25px;
+      left: 40%;
+      height: 50px;
+  }
+
+  @media only screen and (max-width: 800px) {
+      #intro {
+          margin: 70px 7%;
+          padding: 60px;
+      }
+
+      .intro-textbox {
+          position: relative;
+          margin-top: 0px;
+          width: auto;
+      }
+
+      .intro-text {
+          font-size: x-large;
+          padding: 30px 15px 15px 15px;
+      }
+
+      .intro-text button {
+          font-size: 20px;
+          padding: 0px;
+          width: 100px;
+          border: none;
+      }
+  }
+
+  /*MyBookings*/
+
+  .BookingsContainer {
+      margin-top: 30px;
+      padding: 40px;
+  }
+
+  .BookingsContainer li .headin {
+      color: blue;
+      float: left;
+  }
+
+  .BookingsContainer li .content {
+      color: black;
+  }

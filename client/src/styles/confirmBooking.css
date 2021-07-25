@@ -1,0 +1,40 @@
+
+.confirmBooking label {
+    font-size: 30px;
+    text-align: center;
+    color: azure;
+}
+
+.confirmBooking p {
+    font-size: 20px;
+    font-variant: bold;
+    margin-top: 1px;
+    color: #2067bf;
+    font-weight: 500;
+}
+.confirmBooking .outsideContainer .label {
+    text-align: center;
+}
+.confirmBooking .outsideContainer {
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 100px auto;
+  }
+  .confirmBooking .insideContainer {
+    color: black;
+    font-family: unset;
+    font-style: normal;
+    font-feature-settings: "pcap";
+    font-variant: small-caps;
+    font-size: 40px;
+    width: -moz-fit-content;
+    width: fit-content;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    background: #e9eced;
+    opacity: 0.9;
+    box-shadow: 0 20px 30px 0 rgba(0,0,0,.9);
+  }

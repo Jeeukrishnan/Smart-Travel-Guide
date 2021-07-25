@@ -1,0 +1,137 @@
+  
+/* city hotels */
+  #c_h {
+    margin-top:40px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background: #e9ecef5c;
+  }
+  #c_h .column {
+    float: left;
+  }
+  
+  #c_h .left{
+    width: 25%;
+    padding: 20px;
+    position: fixed;
+    
+  }
+
+  #c_h .leftdropdown{
+    width: 30%;
+    padding: 20px;
+    
+  }
+  #c_h .middleheading {
+    width: 70%;
+    padding: 20px;
+    
+  }
+  select {
+    padding:10px;
+    margin-left:10px;
+  }
+  
+  #c_h .middle {
+    width: 75%;
+    padding: 20px;
+    margin-left: 25%;
+    
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #c_h .row {
+    overflow-x:hidden ;
+  }
+
+  .main_row{
+    width: 100%;
+    float: left;
+  }
+
+  .main_col {
+    width : 50%;
+    float: left;
+    padding: 20px;
+  }
+
+  #c_h img {
+    height:250px;
+    width:100%;
+  }
+
+
+  @media only screen and (max-width: 800px) {
+    #c_h .left{
+     display: none;
+     visibility: hidden;
+      
+    }
+    #c_h .middle {
+      width: 100%;
+      margin-left: 0%;
+    }
+    #c_h .middleheading {
+      width: 50%;
+  }
+    .main_row {
+      width: 101%;
+    }
+    .main_col {
+      width : 100%;
+      padding: 0;
+    }
+    select {
+      width: 120px;
+    }
+    #c_h .leftdropdown{
+      width: 32%;
+      padding: 20px;
+      
+    }
+
+  }
+
+  /* hotelDetails */
+  #h_d img{
+    height:350px;
+    width:100%;
+    margin-bottom: 20px;
+  }
+  #h_d .leftDiv {
+    width : 50%;
+    float: left;
+    padding: 20px;
+    position: absolute;
+    margin: 70px 0 0 30px;
+  }
+  #h_d .leftDiv p , #h_d .leftDiv div {
+    font-family: sans-serif;
+    color: #0c5460;
+  }
+  #h_d .rightDiv{
+    width : 50%;
+    float: left;
+    margin-left:50%;
+    padding: 20px;
+    position: fixed;
+  }
+  @media only screen and (max-width: 800px) {
+  #h_d .leftDiv {
+    width: 100%;
+    float: left;
+    padding: 20px;
+    position: relative;
+}
+#h_d .rightDiv {
+  width: 100%;
+  float: left;
+  margin-left: 0%;
+  padding: 20px;
+  position: relative;
+  margin-top: -105px;
+}
+  }
